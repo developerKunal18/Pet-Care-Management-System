@@ -1,0 +1,31 @@
+# Pet Care Management System
+This project helps pet owners manage pet information, vaccination dates, feeding schedules, grooming appointments, and medical visit records.
+Features
+- Register multiple pets.
+- Store pet name, type, breed, age, and owner details.
+- Record feeding schedules.
+- Track vaccination dates.
+- Manage grooming appointments.
+- Maintain medical visit history.
+- Search pets by name or ID.
+- View upcoming care activities.
+- Generate pet care reports.
+- Store records in JSON files.
+
+# Project structure
+Pet-Care-Management-System/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── pet_manager.py
+├── care_manager.py
+├── report_manager.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+└── data/
+    ├── pets.json
+    └── care_records.json
